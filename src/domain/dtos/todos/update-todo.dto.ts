@@ -2,9 +2,9 @@
 export class UpdateTodoDTO {
 
     private constructor(
-        private readonly id: number,
-        private readonly text: string,
-        private readonly completedAt?: string,
+        public readonly id: number,
+        public readonly text: string,
+        public readonly completedAt?: string,
     ){}
 
     get values() {

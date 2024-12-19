@@ -3,3 +3,4 @@
 .env
 /postgres
 /dist
+/coverage
